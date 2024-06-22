@@ -1,27 +1,22 @@
 export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
-  modules: [
-    '@nuxthub/core',
-    '@nuxt/ui',
-    'nuxt-auth-utils',
-    '@nuxt/eslint'
-  ],
+  modules: ["@nuxthub/core", "@nuxt/ui", "nuxt-auth-utils", "@nuxt/eslint"],
   hub: {
-    database: true
+    database: true,
   },
   ui: {
-    icons: ['heroicons', 'simple-icons']
+    icons: ["heroicons", "simple-icons"],
   },
   // Development config
   eslint: {
     config: {
       stylistic: {
-        quotes: 'single',
-        commaDangle: 'never'
-      }
-    }
+        quotes: "single",
+        commaDangle: "never",
+      },
+    },
   },
   devtools: {
-    enabled: true
-  }
-})
+    enabled: true,
+  },
+});

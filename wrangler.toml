@@ -1,0 +1,4 @@
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "to-do-nuxt-prod"
+database_id = "ccf0b98a-666e-42b9-8d99-0e9b6b5fb884"
